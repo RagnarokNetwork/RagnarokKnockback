@@ -1,0 +1,10 @@
+name: RagnarokKnockback
+version: '${project.version}'
+main: net.ragnaroknetwork.ragnarokknockback.RagnarokKnockback
+authors: [ Bloedarend ]
+commands:
+  ragnarokknockback:
+    description: Reload the plugin.
+    usage: /ragnarokknockback help
+    permission: ragnarokknockback.admin
+    aliases: [ rkb ]
